@@ -1,0 +1,333 @@
+<chapter>
+  <banner>
+    <img src="../../img/basic-production-banner.jpg"/>
+  </banner>
+  <head>
+  <title>Basic Production and Growth Management</title>
+  <author>[99]Gambit
+    <email>gambitude99@gmail.com</email>
+  </author>
+  </head>
+<p>
+This is part of the beginner's strategy guide for the games of 
+<a href="https://springrts.com/wiki/Balanced_Annihilation">Balanced Annihilation</a> and 
+<u>Tech Annihilation</u>.
+It explains basic management of your economy and unit production.
+</p>
+
+<p>
+Your success in the game depends strongly on you effectively utilizing your resources to:
+<ul>
+  <li>build military units to protect your economic potential and reduce your opponents'.</li>
+  <li>build buildings that produce even more resources (growing your economy or "<b>eco</b>")</li>
+</ul>
+To do this you need to know about the game's production mechanics. 
+This includes assisting units, avoiding stalls and excesses, queueing, growing your economy, 
+	and the differences between rushing and balanced production.
+We'll often refer broadly to <b>resources</b> when we really mean both <b>metal</b> and <b>energy</b>.
+</p>
+
+<section>
+  <title>Income and Expenditure, Stalling and Excessing Concepts</title>
+<p>
+As a unit or building is being produced, the player's resources are spent continuously in order to 
+  pay for the cost of those units.
+If the player has adequate resources in storage to afford the unit, build progress will proceed at 
+  a rate determined by the build power of the lab and all its assisters.
+If the player does not have adequate resources in storage, then build progress will proceed at a much slower rate.
+It will be constrained by the resource <i>income</i> of the player, since one can only spend resources
+  as fast as one is harvesting them.
+</p>
+<p>
+There is a situation where the player has adequate resources of one type (e.g. metal) but not of another type (e.g. energy).
+This is called a <b>stall</b> since build progress will be slowed to the rate of income of the depleted resource.
+Stalls are generally considered a bad thing because it means that you have resource of one type that can't be
+  spent quickly, and are hindered only by a single type of resource that could be built out.
+Another related concept is that of <b>leaking excess</b> or "<b>excessing</b>" resources.
+If your build power is too weak and you cannot spend your resources quickly enough, they will accumulate until
+  you have reached maximum capacity for that resource, at which point you will lose that income.
+This is also considered bad because it means that this lost resource cannot be used at a later time, even if you
+  increase your build power.
+</p>
+</section>
+
+<section>
+  <title>Beginner's Build Order, or Getting On Your Feet</title>
+<p>
+You start the game with a single unit: the <b>commander</b>. <uniticon name="armcom"/>
+This unit can build all of your basic structures including your first lab.
+The lab can then build constructor units that can create even more structures.
+It is common at the start of the game to queue the production of 2-3 <b>metal extractors (mexes)</b> <uniticon name="armmex"/>, 
+  then 2 <b>solar panels</b> <uniticon name="armsolar"/>
+  followed by making your first factory, which is either a <b>kbot lab</b> <uniticon name="armlab"/> 
+  or <b>vehicle plant</b> <uniticon name="armvp"/>.
+As a new player, deviating from this build order is highly likely to get you <u>flamed</u>.
+You were warned ;D
+</p>
+<p>
+If the map provides much metal, then the player will typically queue the production of a few more basic solar panels.
+If metal is more difficult to find, then the player will queue the production of maybe 3-4 <b>advanced solar panels</b> <uniticon name="armadvsol"/> after the first 2 solar panels, 
+  because these are more metal-efficient to produce even if they take longer.
+You can also start by building <b>wind generators</b> <uniticon name="armwin"/> if the map has a high wind speed.
+See the section below on energy production to help determine if this is feasible.
+</p>
+</section>
+
+<section>
+  <title>Queueing Build Orders</title>
+<p>
+Beginners often make the mistake of trying to build one structure at a time, but this is tedious.
+It requires you to spend precious time with each new building as the previous ones are built.
+Experienced players will <b>queue</b> the production of several buildings.
+To do this, you select a constructor and click the type of item you want to build from its build menu, or use
+  a hotkey to select a structure.
+Your cursor will change to reflect a grayed picture of the structure to be built.
+You can hit <k>ESC</k> to cancel, or click once on the screen to place the building.
+For queueing, you will hold down <k>SHIFT</k> before clicking, then drag the cursor across the screen.
+You'll see several grayed structures appear on the screen to indicate where the queue will be built.
+Release the mouse drag and the constructor will start the build queue. 
+The units will be constructed sequentially until they are all built.
+</p>
+
+<p>
+One of the core balancing skills of the game is to manage the length of your build queues and the amount of build power
+  you dedicate to those queues.
+We will discuss build power below.
+</p>
+
+<p>
+<play-tip>
+You can use the <k>SHIFT</k> key to <i>append</i> more build orders to the end of a worker's existing build queue.
+</play-tip>
+</p>
+
+<p>
+<play-tip>
+You can use the <k>SPACE</k> key to <i>prepend</i> a build order to the start of a worker's existing build queue.
+This is a powerful way to make a worker respond quickly to a threat without having to lose its previous queue of orders.
+For example, you can prepend the construction of a turret right before an invasion.
+When the turret is complete, the worker will resume its previous queue.
+</play-tip>
+</p>
+
+<p>
+Queuing your unit production is a bit different from other RTS games.
+Select a lab and left-click on the icons of the different unit types in the build menu until the numbers in the icons
+  reach the desired counts for each unit type.
+Use right-click to decrease these counts.
+You can also use <k>SHIFT</k> while clicking to increment by 5 instead of 1, or use <k>CTRL</k> while clicking to
+  increment by 20.
+</p>
+
+<p>
+Above that, there is a <b>repeat button</b> that defaults to "Off".
+Turn this "On" to ensure that the lab will repeat its queue of build orders when it is finished.
+Again, this reduces the amount of micromanagement that you need to perform and frees up more of your time to manage the 
+  units themselves and other aspects of production.
+The lab will build that queue of units indefinitely and your army will grow proportionately according to the unit counts that
+  you have provided.
+See the basic tactics guide for more information on what units to build and how to use them.
+</p>
+</section>
+
+<section>
+  <title>Assisting and Nano Turrets</title>
+<p>
+Beginners often overlook the fact that every builder and factory can be <i>assisted</i> by other builders to speed up production.
+You actually <b>need</b> to do this in most situations in order to produce units at a competitive rate and to use up your 
+  stored resources.
+To do this, select some constructors <uniticon name="armck"/> <uniticon name="armcv"/> and then right-click on the building
+  that is producing units.
+While the building is producing a unit, the constructors will send nano-particles -- increasing its build power.
+You can also use this technique to speed up the production of buildings.
+Find a constructor that is producing an energy producing building, like a solar panel, wind farm, or advanced solar panel,
+  and then select <i>another</i> constructor. 
+With the second constructor selected, right click on the first constructor.
+This will cause the second to guard the first and automatically assist in any buildings that it is producing.
+</p>
+
+<p>
+The most important assister unit is called the <b>Nano Turret</b>. 
+<uniticon name="armnanotc"/>
+This is a small stationary turret that doesn't attack, but automatically assists nearby buildings and constructors.
+It gives more build power than a normal constructor while also being more metal-efficient to produce.
+Unlike a constructor however, it cannot move around on its own.
+Judging when and where to build nano turrets and how many to build is one of the core balancing skills of the game.
+It determines the rate of your economic and military growth, the shape of your base, and determines how flexibly
+  you can respond to new threats.
+Build too few, and you will suffer from excessing, slow production, and inflexibility.
+Build too many, and you will spend valuable resources that could be better allocated elsewhere, such as on mobile assisters
+  that move around, reclaim metal from wrecks, and can help build "in the field".
+</p>
+
+<p>
+It is generally better to have too many assisters than too few, but you can still go wrong in this direction!
+Remember that different units also require different amounts of "build power", with the later tech tiers
+  obviously requiring more.
+Experiment often with nano turrets and learn what works for your playing style.
+</p>
+</section>
+
+<section>
+  <title>Reclaiming</title>
+<p>
+As mentioned in the previous paragraph, your mobile assisters (constructors, assistants) can use the <b>reclaim</b>
+  command to reclaim metal from wrecked units after a battle.
+To reclaim, select some assisters (or <b>Rezbots</b> <uniticon name="armrectr"/>) and click the reclaim button, then left-click an area and drag outwards,
+  forming a circle. 
+The reclaimer units will salvage the metal in any wrecks in this circle, adding directly to your metal stores.
+</p>
+
+<p>
+This is a way to turn a finished battle to your advantage since you can often get most of the metal
+  from a dead unit back right away and put it toward production of your own live units.
+Also, the early stages of most team games will often see an exploded <b>Commander</b> on the field.
+The Commander wreck is always worth full metal: 2500 for BA and 2000 for TechA.
+This is a <i>huge</i> amount, and the explosion of a commander (or <b>comm-blast</b>) can be followed by subsequent comm blasts
+  as commanders of different teams come to fight for and reclaim that metal!
+Often you will not even have enough storage for that much metal, but if you reclaim it and leak, it will go to your allies.
+Do not underestimate the power of an team to grow by reclaiming the metal from previous battles.
+The author has seen many victories and comebacks emerge from the race to reclaim the metal left after a large clash.
+</p>
+</section>
+
+<section>
+  <title>Energy Production and Energy Economy</title>
+<p>
+Energy is less competitive to make than metal since it can be made almost anywhere and doesn't require a metal spot.
+There are also several alternatives for making it in the early game, including solar, wind, and tidal.
+The choice of which to make is very dependent on the map settings and the amount of energy obtained from these sources. 
+Press <k>I</k> to view these settings.
+Consider the following table:
+</p>
+
+<table class="compare" style="margin:auto" border="1" width="600">
+  <tr>
+     <td width="60"/> <td bgcolor="#00c000">Much more metal efficient than solar</td> 
+                      <td bgcolor="#00c0c0">Somewhat more metal efficient than solar</td> 
+                      <td bgcolor="#c00000">Less efficient than solar</td>
+  </tr>
+  <tr>
+     <td><uniticon name="armwin"/> Wind</td> <td>Wind speed 20 or greater</td>  <td>Wind speed 8-20</td>  <td>Wind speed 7 or less</td>
+  </tr>
+  <tr>
+     <td><uniticon name="armtide"/> Tidal </td> <td>Tidal force 50 or greater</td> <td>Tidal force 25-50</td> <td>Tidal force 25 or less</td>
+  </tr>
+</table>
+
+<p>
+<play-tip> The wind speed is also the exact amount of energy produced by a single wind farm.</play-tip>
+Most maps that have a high enough wind speed to make wind a viable economic producer also have <i>variable</i> wind speed,
+  meaning that the wind can die down reducing your energy output.
+</p>
+<p>
+Note that energy producers that are very <i>efficient</i> in terms of their required metal do not necessarily build as quickly.
+In other words, you sometimes pay more metal in order to increase your energy production more quickly.
+</p>
+</section>
+
+<section>
+  <title>Metal Production and Metal Economy</title>
+<p>
+Metal acquisition is somewhat dependent on the style of map.
+There exist special <b>metal maps</b> where every map position contains abundant metal, and a small number of extractors can power vast armies.
+On most standard maps however, metal is found in very sparse positions and metal extractors
+  can only extract metal at these spots.
+Press <b>[F4]</b> to toggle the view of the metal spots on the map.
+</p>
+<p>
+In the early phases of the game, metal is acquired by 
+<ul>
+  <li>Acquiring territory and building extractors <uniticon name="armmex"/> on metal spots</li>
+  <li>Reclaiming the wrecks from units after a battle</li>
+  <li>Reclaiming the wreck of a Commander after it explodes</li>
+</ul>
+</p>
+<p>
+In the later phases of the game, metal tends to be <i>produced</i> by large (and fragile) metal-maker buildings. 
+<uniticon name="armmmkr"/> 
+<uniticon name="cormmkr"/>
+These consume a fixed amount of energy and produce a fixed amount of metal.
+You can make them at all stages of the game, but the ones produced by the later tech tiers are the most prevalent and important
+   (tier 2 in BA, tiers 1.5 and 2 in TechA.)
+These produce much more metal than a metal extractor, but they are also fragile and explode a bit when they die.
+The tier 2 makers constitute the bulk of metal production for the majority of the middle phases of the game in TechA, and are the only
+   source of metal for the middle and late game in BA.
+Due to the fact that they deal explosive damage when they die, they are usually built further away from other structures, and 
+  usually in a few tightly packed clusters.
+These clusters have the property that, if one dies, then they all die.
+So bomb your opponent's metal makers!
+Target them exclusively if you have a few units left raiding a base!
+</p>
+</section>
+
+<section>
+  <title>Metal Conversion</title>
+<p>
+The metal makers operate on a "conversion rate" which is really more like a threshold.
+You control this threshold using the conversion bar near the top of the screen.
+When your energy stores are above the threshold, the makers convert the surplus energy into metal.
+Nominally your energy stores will hover around the threshold level as the surplus is converted into metal.
+If your energy stores instead go to their maximum, it's time to construct more metal makers.
+</p>
+
+<p>
+The threshold level can be changed for various reasons.
+When the map is very windy, you want to keep some energy in store for when the wind dies down, 
+  so the threshold can be set high to provide a "buffer" a large amount of energy.
+Another reason for setting the level high is so that the player will have energy in store for short bursts of use by weapons
+  such as the Commander D-Gun, the big ARM T2 Annihilator turret <uniticon name="armanni"/>, or the ARM Snipers <uniticon name="armsnipe"/>. 
+</p>
+
+<p>
+When player is building finishing a large structure, he typically wants to use as much metal as he can, so he sets the threshold low.
+Often the completion of a new fus or afus will result in more income than the player can use right away, so you can avoid excessing
+  by setting the threshold low shortly before completion.
+This gives the extra metal needed for fast completion of the producer and also depletes energy storage in preparation for
+  the large increase in energy income upon its completion.
+</p>
+</section>
+
+<section>
+  <title>Rushing and Balanced Growth</title>
+<p>
+In a very large game, you will often see some players dedicating their resources entirely to the 
+  production of even more resource gathering, usually for the purpose of climbing the tech tree more quickly.
+Many see it as more favourable for the back players to grow their economy and achieve higher tech earlier
+  in the game, hoping to dominate the opposing side with the support of a superior economy.
+</p>
+
+<p>
+Another strategy common among stronger players is to build the minimal economy necessary to support the production 
+  of a specific squad of early units that can yield a devastating attack.
+"Early" can mean at the very beginning of the game, as with a fast Flea or Peewee rush, or it can mean in a 
+  later phase of the game by achieving the production of a high-tech unit that can dominate lower-tiered units easily, 
+  such as a Goliath rush.
+</p>
+
+<p>
+Both of these extreme economic strategies are casually referred to as <b>rushing</b>, either as 
+  <b>rushing tech</b>, <b>rushing a particular unit</b>, or sometimes <b>rushing an afus</b>, the latter
+  in reference to powerful T2 advanced fusions  <uniticon name="aafus"/> which generate enormous energy and can support 
+  both more advanced units and enormous unit production capacity.
+<span class="techa-tip">
+In the TechA world, tech rushing is practically the norm since the tech tiers are expensive and have the
+  tendency to dominate lower tiers more easily.
+Read <a href="techa-basic-tech">here</a> for more information about tech growth in TechA.
+This, combined with the tendency in TechA for games to be played on much larger maps, means that early attacks 
+  can easily be foiled by superior technology by the time the attacking units reach the (more distant) enemy encampments.
+</span>
+</p>
+
+<p>
+Ironically, a strong player achieves balanced growth by alternating between rushing specific resource production buildings
+  followed by rushing specific squads of units.
+This is considered highly efficient since the desired target buildings or units are achieved in the shortest time possible, 
+  meaning that the player can focus all their economic power on specific targets in sequence, rather than having this power 
+  divided between several build targets.
+The latter strategy results in slower achievement of the build orders .
+</p>
+
+</section>
+
+</chapter>
